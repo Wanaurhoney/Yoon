@@ -89,10 +89,36 @@
 </div>
 
 
+<main id="banksy">
+    
+    <div id="piece" @click="$refs.art.click()">
+      <div id="holder">
+        <div id="painting">        
+          <div id="shredded">
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+          <div class="shred"></div>
+        </div>
+          <div id="original"></div>
+        </div>
+      </div>
+    <div id="frame"></div>    
+  </div>
+  <input ref="art" type="file" accept="image/*" @change="artSelected">
+</main>
 
+<div class="woo">
+<div id="world" class="2world" />
 
-
-
+</div>
 </body>
 
 
